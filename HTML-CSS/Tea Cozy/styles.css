@@ -1,0 +1,130 @@
+/* General Styles */
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background: black;
+}
+
+.content {
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+/* Header Section */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.header .logo {
+    margin: 10px;
+    height: 50px;
+}
+
+.header nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: underline;
+}
+
+.header nav li {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* Mission Section */
+
+.mission {
+    width: 1200px;
+    height: 700px;
+    background: url('./resources/mission-background.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission .description {
+    background: black;
+    width: 100%;
+    text-align: center;
+}
+
+/* Tea of the Month Section */
+
+.month {
+    width: 1000px;
+    text-align: center;
+}
+
+.month .tea {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.month .tea .row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.month .tea .row .box h4 {
+    margin-top: 10px;
+}
+
+.month .tea img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+/* Locations Section */
+
+.locations {
+    background: url('./resources/locations-background.jpg');
+    background-position: center;
+    width: 1200px;
+    height: 500px;
+    text-align: center;
+}
+
+.locations .container {
+    position: relative;
+    top: 60px;
+}
+
+.locations .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.locations .row .box {
+    width: 300px;
+    margin-left: 15px 40px;
+    background: black;
+    color: white;
+    display: flex;
+    flex-flow: column;
+}
+
+/* Contact Section */
+
+.contact {
+    text-align: center;
+}
+
+/* Footer Section */
+
+.footer {
+    margin-left: 20px;
+}

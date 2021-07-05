@@ -1,0 +1,36 @@
+* {
+    font-family: Helvetica;
+}
+
+.header {
+    /* font-family: Helvetica; */
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url("C:/Projects/Dasmoto's-Arts-&-Crafts/resources/pattern.jpeg");
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.price {
+    color: blue;
+    font-weight: bold;
+}
+
+h2.brushes {
+    /* font-family: Helvetica; */
+    background-color: mediumspringgreen;
+}
+
+h2.frames {
+    background-color: lightcoral;
+}
+
+h2.paint {
+    background-color: skyblue;
+}

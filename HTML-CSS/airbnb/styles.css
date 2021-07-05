@@ -1,0 +1,42 @@
+* {
+    font-weight: bold;
+    color: rgba(141, 72, 32, 0.678);
+    text-align: right;
+}
+
+body {
+    background-image: url("./resources/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    height:100px;
+    width: 280px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+h1, p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 150px;
+}
+
+p {
+    font-size: 50px;
+}
+
+a {
+    color: rgba(80, 35, 5, 0.664);
+}
+
+.city-guides {
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    color: rgba(141, 72, 32, 0.678);
+    text-align: right;
+}

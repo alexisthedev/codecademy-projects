@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+
+html { /* Stretches the background image to the entirety of the webpage */
+    background: url("./resources/background.jpg") no-repeat center center fixed;
+    background-size: 100%; 
+    -webkit-background-size: 100% 100% cover;
+    -moz-background-size: 100% 100% cover;
+    -o-background-size: 100% 100% cover;
+    background-size: 100% 100% cover;
+}
+
+body {
+    text-align: center;
+}
+
+.content {
+    position: relative;
+    top: 100px;
+    background-color: rgba(245, 245, 245, 0.3);
+    display: inline-block;
+    border: 2.5px solid black;
+    border-radius: 30px;
+    padding: 50px 25px;
+    margin: 0 0 100px;
+
+}
+a {
+    text-decoration: none;
+}
+
+/* Reocurring Styles */
+
+.section-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.description {
+    font-family: 'Oswald', sans-serif;
+    margin: 10px 0;
+    font-size: 17.5px;
+}
+
+/* Header */
+
+.header .nav-bar {
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 40px;
+    background-color: rgb(5, 56, 107);
+    text-align: right;
+}
+
+.header #logo {
+    display: inline;
+    position: absolute;
+    left: 25px;
+    top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.header #logo:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+}
+
+.header li {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    padding: 0 5px;
+}
+
+.header a {
+    color: rgb(255, 255, 255);
+    display: inline;
+}
+
+.header a:hover {
+    border-bottom: 5px solid white;
+    /*background-color: white;
+    color: black;*/
+    transition: 0.2s;
+}
+
+.header .heading {
+    position: relative;
+    top: 100px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin: 50px 0;
+    color: rgba(77, 222, 248, 0.8);
+    font-size: 40px;
+}
+
+/* Colors Section */
+
+.colors {
+    background-color: rgba(245, 245, 245, 0.5);
+    display: block;
+    border: 2.5px solid black;
+    padding: 50px 25px;
+    margin: 20px;
+}
+
+.colors .color-box {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+
+.colors .color-name {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+
+.colors .hex-code {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    text-align: center;
+    top: 35px;
+
+}
+
+.colors a.ref-link {
+    font-weight: bold;
+    color: rgb(126, 190, 30);
+}
+
+.colors #nightsky {
+    background-color: rgb(5, 56, 107);
+    /* color: rgb(255, 140, 0); */
+    color: rgb(0, 0, 0);
+}
+
+.colors #grass-green {
+    background-color: rgb(92, 219, 149);
+    color: rgb(245, 245, 245);
+}
+
+
+
+.colors #tortoise {
+    background-color: rgb(55, 150, 131);
+    /* color: rgb(255, 140, 0); */
+    color: rgb(0, 0, 0);
+}
+
+.colors #mellow {
+    background-color: rgb(142, 228, 175);
+    color: rgb(245, 245, 245);
+}
+
+.colors #pale {
+    background-color: rgb(237, 245, 225);
+    /*color: rgb(255, 140, 0);*/
+    color: rgb(0, 0, 0);
+
+}
+
+#color-header { /* Gives the header a gradient */
+    background-image: linear-gradient(to left, rgb(92, 219, 149), rgb(55, 150, 131), rgb(5, 56, 107) );
+    -webkit-background-clip: text;
+    background-clip: none;
+    color: transparent;
+}
+
+/* Fonts Section */
+
+.fonts {
+    background-color: rgba(245, 245, 245, 0.5);
+    display: block;
+    border: 2.5px solid black;
+    padding: 50px 25px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.fonts #fonts-heading {
+    color: rgb(5, 56, 107);
+}
+
+.fonts .font-box {
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    padding: 0 10px;
+    margin: 0 25px;
+    line-height: 2.5;
+}
+
+.fonts .font-name {
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    top: 30px;
+
+}
+
+.fonts .font-type {
+    font-weight: 150px;
+    font-size: 30px;
+    position: relative;
+    text-align: left;
+    top: 50px;
+    color: whitesmoke;
+}
+
+.fonts a.ref-link {
+    font-weight: bold;
+    color: rgb(75, 0, 130);
+}
+
+.fonts #raleway {
+    background-color: rgb(93, 3, 158, 0.8);
+    font-family: 'Raleway', sans-serif;
+}
+
+.fonts #oswald {
+    background: rgb(59, 117, 144, 0.8);
+    font-family: 'Oswald', sans-serif;
+}
+
+.fonts #roboto {
+    background-color: rgb(93, 3, 158, 0.8);
+    font-family: 'Roboto', sans-serif;
+}
+
+.fonts #lato {
+    background: rgb(59, 117, 144, 0.8);
+    font-family: 'Lato', sans-serif;
+}
+
+.font-type#light {
+    font-weight: 300;
+}
+
+.font-type#light-italic {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.font-type#regular {
+    font-weight: 400;
+}
+
+.font-type#bold {
+    font-weight: 700;
+}
+
+.font-type#extra {
+    font-weight: 900;
+}
+
+/* Text Styles Section */
+
+.text-styles {
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: rgba(245, 245, 245, 0.5);
+    display: block;
+    border: 2.5px solid black;
+    padding: 50px 25px;
+    margin: 20px;
+}
+
+.text-styles .section-heading {
+    color: rgb(5, 56, 107)
+}
+
+.elements {
+    margin-left: auto;
+    margin-right: auto;     
+    border-collapse: collapse;
+    min-width: 600px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.elements thead tr {
+    background-color: rgb(5, 56, 107);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.elements th, .elements td {
+    padding: 12px 15px;
+}
+
+.elements tbody tr {
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+.elements tbody tr:nth-of-type(even) {
+    background-color: rgba(241, 235, 235, 1);
+}
+
+.elements tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(5, 56, 107);
+}
+
+.elements tbody tr.active:hover {
+    color: rgb(5, 56, 107);
+    font-weight: bold;
+}
+
+.first {
+    color: rgb(5, 56, 107);
+    font-weight: bold;
+}
+
+/* Footer */
+
+.footer {
+    margin: 50px 0 0;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    color: gray;
+
+}
+
+.footer p {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+}

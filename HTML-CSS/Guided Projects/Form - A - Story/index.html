@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="next" href="original.html">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Form a Story</title>
+</head>
+
+<body>
+    <section id="top">
+        <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-html-forms/formAStoryLogo.svg"
+            alt="Form A Story Logo">
+    </section>
+
+    <section id="main">
+        <h1>Complete the Form -<br> Complete the Story!</h1>
+        <hr>
+        <!--Add your form below:-->
+
+        <form action="story.html" method="GET">
+
+            <!-- 1st animal - the loser of the race-->
+            <label for="animal-1">Animal:</label>
+            <input id="animal-1" type="text" name="animal-1" value="Rabbit" required>
+            <br>
+
+            <!-- 2nd animal - the winner of the race -->
+            <label for="animal-2">Another Animal:</label>
+            <input id="animal-2" type="text" name="animal-2" value="Turtle" required>
+            <br>
+
+            <!-- 3rd animal - the judge of the race -->
+            <label for="animal-3">One More Animal:</label>
+            <input id="animal-3" type="text" name="animal-3" value="Mouse" required>
+            <br>
+
+            <!-- animal-1 reaction to the race proposal -->
+            <label for="adj-1">Adjective(past tense):</label>
+            <input id="adj-1" type="text" name="adj-1" value="Shocked" required>
+            <br>
+
+            <!-- What animal-1 was practicing -->
+            <label for="verb-1">Verb (ends in -ing)</label>
+            <input id="verb-1" type="text" name="verb-1" value="Coding" required>
+            <br>
+
+            <!-- Hours of animal-1 practicing -->
+            <label for="num-1">Number:</label>
+            <input id="num-1" name="num-1" type="number" value="2" min="2" required>
+            <br>
+
+            <!-- Yes/No Button -->
+            <span>Yes or No:</span>
+            <input id="yes" type="radio" name="answer" value="yes" required>
+            <label for="yes">Yes</label>
+            <input id="no" type="radio" name="answer" value="no">
+            <label for="no">No</label>
+            <br>
+
+            <!-- Dropdown to choose a speed -->
+            <label for="speed">Relative speed (ends in -er):</label>
+            <select id="speed" name="speed" required>
+                <option value="way damn faster">Way Damn Faster</option>
+                <option value="way faster">Way Faster</option>
+                <option value="faster">Faster</option>
+                <option value="slower">Slower</option>
+                <option value="way slower">Way Slower</option>
+                <option value="way damn slower">Way Damn Slower</option>
+            </select>
+            <br>
+
+            <!-- Droplist to choose a quote -->
+            <label for="quote">Motivational Quote:</label>
+            <input id="quote" type="text" name="quote" list="quote-choices" required>
+            <datalist id="quote-choices">
+                <option value="Never stop"></option>
+                <option value="Don't give up"></option>
+                <option value="You gotta get up and fight"></option>
+                <option value="Fortnite bad"></option>
+            </datalist>
+            <br>
+
+            <!-- Meaningful Message for the story's end -->
+            <label for="message">Meaningful Message:</label><br>
+            <textarea id="message" name="message" rows="8" cols="40"
+                placeholder="eg. 'Never underestimate your opponent' " required></textarea>
+            <br>
+
+            <input type="submit" value="Form My Story!">
+        </form>
+    </section>
+</body>
+
+</html>

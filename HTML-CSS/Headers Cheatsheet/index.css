@@ -1,0 +1,72 @@
+* {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    color: crimson;
+}
+
+h2 {
+    font-size: 35px;
+    color: red;
+    text-align: center;
+}
+
+.elements {
+    margin-left: auto;
+    margin-right: auto;     
+    border-collapse: collapse;
+    min-width: 600px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.elements thead tr {
+    background-color: crimson;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.elements th, .elements td {
+    padding: 12px 15px;
+}
+
+.elements tbody tr {
+    border-bottom: 1px solid gray;
+}
+
+.elements tbody tr:nth-of-type(even) {
+    background-color: rgba(241, 235, 235, 1);
+}
+
+.elements tbody tr:last-of-type {
+    border-bottom: 2px solid crimson;
+}
+
+.elements tbody tr.active:hover {
+    color: crimson;
+    font-weight: bold;
+}
+
+.first {
+    color: crimson;
+    font-weight: bold;
+}
+
+
+.attributes {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    padding:2px 6px 4px 6px; 
+    border: #dddddd 2px solid;
+    margin-left: 800px;
+}
+
+.attributes a {
+    color: tomato;
+}
