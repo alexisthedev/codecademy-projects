@@ -1,0 +1,50 @@
+/* General Styles */
+
+h1, h2, h3, p, a {
+    color: white;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+/* Phone Segment */
+
+h1 {
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.download-link {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+/* Camp Segment */
+
+h2 {
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+p {
+    color: gray;
+    font-family: Verdana;
+    font-size: 21px;
+}
+
+/* Phone Download Segment */
+
+.phone-icon {
+    margin-top: 40px;
+}
+
+.copyright {
+    color: gray;
+    font-family: Verdana;
+    text-align: right;
+    font-weight: normal;
+}
